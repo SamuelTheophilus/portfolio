@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+  body {
+    @apply bg-[#FFFFFF] text-[#495579]
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    @apply font-bold
+  }
+
+  h1{
+    @apply text-3xl sm:text-2xl md:text-4xl
+  }
+
+}
