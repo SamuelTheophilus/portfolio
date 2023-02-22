@@ -15,8 +15,8 @@ export default function Home() {
         <title>SamuelTheophilus | Home</title>
       </Head>
       <div className='h-screen flex'>
-        <div className='mx-auto mt-10'>
-          <h1 className='text-3xl font-bold py-5 text-center '>Homepage</h1>
+        <div className='mx-auto mt-10 p-10 md:max-w-3xl'>
+          <h1 className='text-3xl font-bold py-5 text-center'>Homepage</h1>
           <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
             ipsum lorem ipsum lorem ipsum lorem ipsum</p>
           <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum
